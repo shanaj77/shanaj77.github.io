@@ -5,7 +5,7 @@ body {
 }
 
 .home_image {
-  background-image: url("/images/home.jpeg");
+  background-image: url("images/home.jpeg");
   background-color: #cccccc;
   height: 500px;
   background-position: center;
