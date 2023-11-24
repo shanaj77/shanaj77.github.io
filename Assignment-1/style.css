@@ -5,7 +5,7 @@ body {
 }
 
 .home_image {
-  background-image: url("shanaj77.github.io/Assignment-1/images/home.jpeg");
+  background-image: url("/Assignment-1/images/home.jpeg");
   background-color: #cccccc;
   height: 500px;
   background-position: center;
