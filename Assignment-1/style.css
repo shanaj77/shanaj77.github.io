@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.home_image {
+  background-image: url("/images/home.jpeg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.topnav {
+  overflow: hidden;
+
+  position: relative;
+}
+
+
+.topnav a {
+
+  color: brown;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  font-weight: bolder;
+
+}
+
+.topnav a.icon {
+  
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  color: grey;
+}
+
+ .p1{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #e0efe2;
+  position:sticky;
+  font-size:45px;
+  justify-content: left;
+  padding-left: 70px;
+  padding-top: 150px;
+}
+.sec{
+padding: 20px;
+  background-color:aliceblue;
+}
+.grid-item {
+  display: grid;
+  position: relative;
+
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #909498;
+  padding: 10px;
+}
+
+.grid-item > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 5px ;
+  font-size: 30px;
+}
+h1{
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(111, 80, 80);
+}
+.grid-item  .item-p  {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px;
+
+}
+figcaption{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+
+}
