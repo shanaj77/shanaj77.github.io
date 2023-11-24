@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 16px;  
+
+
+}
+    
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background: #999;
+    background-image: url("cool-background.png");
+    background-size: cover;
+    position: relative;
+    
+
+}
+
+.form-box{
+    width: 90%;
+    max-width: 550px;
+    position: absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background:#34495E;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color:#45B39D;
+    position: relative;
+}
+.form-box h1::after{
+    content: '';
+    width: 50px;
+    height:4px;
+    border-radius: 3px;
+    background: #45B39D;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.input-field{
+    background: transparent;
+    margin: 15px 0;
+    border-radius: 5px;
+    border:   1px solid  blanchedalmond;
+    display: flex;
+    align-items: center;
+    max-height : 45px;
+    transition: max-height 0.3s;
+    overflow: hidden;
+
+
+}
+input ::after {
+    content: "*";
+    color: green;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: #B3B6B7;
+}
+.input-field i{
+   margin-left: 15px;
+   color:#999; 
+}
+form p{
+    text-align: left;
+    font-size: 16px;
+    color: #B3B6B7;
+
+
+}
+.form p a{
+    text-decoration: none;
+}
+.button-container{
+    width:100%;
+    display:flex;
+    padding-bottom: 15px;
+    justify-content: space-between;
+}
+.button-container button{
+    flex-basis: 48%;
+    background: #45B39D;
+    color:#fff;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    cursor: pointer; 
+
+}
+.button-container button:hover{
+    background: #F0B27A;
+
+}
+.btn-field{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+
+}
+.btn-field button{
+    flex-basis: 48%;
+    background: #45B39D;
+    color:#fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer; 
+    transition:background 1s;
+
+
+}
+.btn-field button:hover{
+    background: #F0B27A;
+
+}
+.input-group{
+    height:280px;
+
+}
+.btn-field button.disable{
+    background: #eaeaea;
+    color: #555;
+}
